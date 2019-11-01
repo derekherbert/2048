@@ -1,0 +1,36 @@
+#grid {
+    width: 100%; 
+    text-align: center;
+    background-color: #baad9e;
+    border: 8px solid #baad9e;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.square {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    border: 8px solid #baad9e;
+    background-color: #ffffff;
+}
+.square-interior {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: relative;
+}
+.square-interior p {
+    margin: 0px;
+    line-height: 0px; 
+    padding-top: 45%;
+    text-shadow: 1px 1px #baad9e;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+    user-select: none;
+}
